@@ -1,0 +1,16 @@
+body
+    {
+        font-family: 'Lexend', sans-serif;
+    }
+
+.class1 {
+  background-color: red;  /*Change this to white*/
+  color: #0f172a; /* slate-900 */
+}
+.class2{
+    position: relative;
+    display: flex;
+    min-width: 100vh;
+    flex-direction: column;
+    overflow-x: hidden;
+}

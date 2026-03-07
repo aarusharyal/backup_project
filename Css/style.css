@@ -1,16 +1,71 @@
 body
-    {
-        font-family: 'Lexend', sans-serif;
-    }
+{
+    font-family: 'Lexend', sans-serif;
+}
 
-.class1 {
+.body_class1 
+{
   background-color: red;  /*Change this to white*/
   color: #0f172a; /* slate-900 */
 }
-.class2{
+
+.body_class2
+{
     position: relative;
     display: flex;
     min-width: 100vh;
     flex-direction: column;
     overflow-x: hidden;
+}
+
+.header_class1
+{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 245, 0.95); /* white with slight transparency */
+    z-index: 50;
+    backdrop-filter: blur(10px); /* Optional: adds a blur effect to the background */
+    border-bottom: 1px solid #e2e8f0; /* Optional: adds a subtle border at the bottom of the header */
+}
+
+.header_class2
+{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.header_class3
+{
+  display: flex;          /* flex */
+  height: 5rem;           /* h-20 → 20 * 0.25rem = 5rem */
+  align-items: center;    /* items-center */
+  justify-content: space-between; /* justify-between */
+}
+
+.header_class4
+{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+header_class5
+{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+header_class6
+{
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -0.015rem;
+    color: #001f3f;
+    text-transform: uppercase;
 }

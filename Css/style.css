@@ -54,18 +54,93 @@ body
     gap: 2rem;
 }
 
-header_class5
+.header_class5
 {
     display: flex;
     align-items: center;
     gap: 0.75rem;
 }
 
-header_class6
+.header_class6
 {
     font-size: 1.25rem;
     font-weight: 800;
     letter-spacing: -0.015rem;
     color: #001f3f;
     text-transform: uppercase;
+}
+
+.nav_class1
+{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.group_relative
+{
+    position: relative;
+}
+
+button_class1
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #374151;
+}
+
+.a_class1
+{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #374151;
+}
+
+.div_class1
+{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.div_class2
+{
+    position: relative;
+    display: block;
+}
+
+.input_class1
+{
+    display: block;
+    width: 16rem;
+    border-radius: 0.5rem;
+    border: none;
+    background-color: #f1f5f9;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2.5rem;
+    padding-right: 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #374151;
+}
+.input_class1::placeholder
+{
+    color: #64748b;
+}
+
+.button_class2
+{
+    border-radius: 0.5rem;
+    background-color: #3b82f6;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: #ffffff;
 }

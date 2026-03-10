@@ -306,3 +306,101 @@ body
   padding-bottom: 5rem;     /* py-20 → 5rem */
 }
 
+.div_class7
+{
+  margin-left: auto;       /* mx-auto → centers horizontally */
+  margin-right: auto;      
+  max-width: 80rem;        /* max-w-7xl → 1280px (80rem) */
+  padding-left: 1rem;      /* px-4 → 1rem */
+  padding-right: 1rem;     /* px-4 → 1rem */
+}
+
+.div_class8 
+{
+  display: flex;           /* flex */
+  flex-direction: column;  /* flex-col */
+  gap: 3rem;               /* gap-12 → 3rem */
+}
+
+.div_class9
+{
+  flex-grow: 1;
+}
+
+.div_class10
+{
+  margin-bottom: 2.5rem;   /* mb-10 → 2.5rem */
+  display: flex;           /* flex */
+  align-items: flex-end;   /* items-end */
+  justify-content: space-between; /* justify-between */
+}
+
+.head_class4 {
+  font-size: 1.875rem;   /* text-3xl → 30px */
+  line-height: 2.25rem;  /* Tailwind’s default line-height for text-3xl */
+  font-weight: 800;      /* font-extrabold */
+  color: #001f3f;        /* text-navy (approx deep navy) */
+}
+
+.aClass2 
+{
+  font-size: 0.875rem;   /* text-sm → 14px */
+  font-weight: 700;      /* font-bold */
+  color: #3b82f6;        /* text-primary (Tailwind default → blue-500) */
+}
+
+.div_class11 
+{
+  display: grid;                /* grid */
+  grid-template-columns: 1fr;   /* grid-cols-1 → single column */
+  gap: 2rem;                    /* gap-8 → 2rem */
+}
+
+.articleClass1 
+{
+  display: flex;                 /* flex */
+  flex-direction: column;        /* flex-col */
+  overflow: hidden;              /* overflow-hidden */
+  border-radius: 0.75rem;        /* rounded-xl */
+  background-color: #ffffff;     /* bg-white */
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05); /* shadow-sm */
+  border: 1px solid #f1f5f9;     /* border-slate-100 */
+}
+
+.div_class12
+ {
+  padding: 1.5rem;   /* p-6 → 1.5rem on all sides */
+}
+
+.div_class13 
+{
+  font-size: 0.75rem;        /* text-xs → 12px */
+  font-weight: 700;          /* font-bold */
+  text-transform: uppercase; /* uppercase */
+  letter-spacing: 0.05em;    /* tracking-wider */
+  color: #FFD700;            /* text-gold (approx gold) */
+  margin-bottom: 0.5rem;     /* mb-2 → 0.5rem */
+}
+
+.head_class5 
+{
+  font-size: 1.125rem;     /* text-lg → 18px */
+  line-height: 1.375rem;   /* leading-snug → ~22px (1.375rem) */
+  font-weight: 700;        /* font-bold */
+  color: #001f3f;          /* text-navy (approx deep navy) */
+}
+
+.paragraph_class3 
+{
+  margin-top: 0.75rem;     /* mt-3 → 0.75rem */
+  font-size: 0.875rem;     /* text-sm → 14px */
+  color: #64748b;          /* text-slate-500 */
+  line-height: 1.25rem;    /* Tailwind default for text-sm */
+  
+  /* line-clamp-2 → show only 2 lines, truncate overflow */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;   /* limit to 2 lines */
+  line-clamp: 2;           /* standard property for compatibility */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

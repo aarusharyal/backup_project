@@ -247,4 +247,62 @@ body
   border: 1px solid rgba(255,255,255,0.2); 
 }
 
+.sectionClass2
+{
+  margin-left: auto;       /* mx-auto → auto left/right margin */
+  margin-right: auto;      /* centers the block */
+  max-width: 80rem;        /* max-w-7xl → 1280px (80rem) */
+  padding-left: 1rem;      /* px-4 → 1rem */
+  padding-right: 1rem;     /* px-4 → 1rem */
+  padding-top: 4rem;       /* py-16 → 4rem */
+  padding-bottom: 4rem;    /* py-16 → 4rem */
+}
+
+.div_class6 
+{
+  display: grid;          /* grid */
+  grid-template-columns: 1fr; /* grid-cols-1 → single column */
+  gap: 1.5rem;            /* gap-6 → 1.5rem */
+}
+
+.aClass1
+{
+  display: flex;                 /* flex */
+  flex-direction: column;        /* flex-col */
+  align-items: flex-start;       /* items-start */
+  border-radius: 0.75rem;        /* rounded-xl */
+  border: 1px solid #e2e8f0;     /* border-slate-200 */
+  background-color: #ffffff;     /* bg-white */
+  padding: 2rem;                 /* p-8 → 2rem */
+}
+
+.head_class3 
+{
+  font-size: 1.25rem;   /* text-xl → 20px */
+  font-weight: 700;     /* font-bold */
+  color: #001f3f;       /* text-navy (approx deep navy) */
+}
+
+.paragraph_class2 
+{
+  margin-top: 0.5rem;   /* mt-2 → 0.5rem */
+  color: #475569;       /* text-slate-600 */
+}
+
+.spanClass1 
+{
+  margin-top: 1rem;       /* mt-4 → 1rem */
+  display: flex;          /* flex */
+  align-items: center;    /* items-center */
+  font-size: 0.875rem;    /* text-sm → 14px */
+  font-weight: 700;       /* font-bold */
+  color: #3b82f6;         /* text-primary (Tailwind default → blue-500) */
+}
+
+.sectionClass3 
+{
+  background-color: #f8fafc; /* bg-slate-50 */
+  padding-top: 5rem;        /* py-20 → 5rem */
+  padding-bottom: 5rem;     /* py-20 → 5rem */
+}
 

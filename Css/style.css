@@ -249,31 +249,31 @@ body
 
 .sectionClass2
 {
-  margin-left: auto;       /* mx-auto → auto left/right margin */
-  margin-right: auto;      /* centers the block */
-  max-width: 80rem;        /* max-w-7xl → 1280px (80rem) */
-  padding-left: 1rem;      /* px-4 → 1rem */
-  padding-right: 1rem;     /* px-4 → 1rem */
-  padding-top: 4rem;       /* py-16 → 4rem */
-  padding-bottom: 4rem;    /* py-16 → 4rem */
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 4rem;    
+  padding-bottom: 4rem;
 }
 
 .div_class6 
 {
-  display: grid;          /* grid */
-  grid-template-columns: 1fr; /* grid-cols-1 → single column */
-  gap: 1.5rem;            /* gap-6 → 1.5rem */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
 }
 
 .aClass1
 {
-  display: flex;                 /* flex */
-  flex-direction: column;        /* flex-col */
-  align-items: flex-start;       /* items-start */
-  border-radius: 0.75rem;        /* rounded-xl */
-  border: 1px solid #e2e8f0;     /* border-slate-200 */
-  background-color: #ffffff;     /* bg-white */
-  padding: 2rem;                 /* p-8 → 2rem */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+  background-color: #ffffff;
+  padding: 2rem;
 }
 
 .head_class3 

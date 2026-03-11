@@ -278,48 +278,48 @@ body
 
 .head_class3 
 {
-  font-size: 1.25rem;   /* text-xl → 20px */
-  font-weight: 700;     /* font-bold */
-  color: #001f3f;       /* text-navy (approx deep navy) */
+  font-size: 1.25rem; 
+  font-weight: 700;
+  color: #001f3f;
 }
 
 .paragraph_class2 
 {
-  margin-top: 0.5rem;   /* mt-2 → 0.5rem */
-  color: #475569;       /* text-slate-600 */
+  margin-top: 0.5rem;
+  color: #475569;
 }
 
 .spanClass1 
 {
-  margin-top: 1rem;       /* mt-4 → 1rem */
-  display: flex;          /* flex */
-  align-items: center;    /* items-center */
-  font-size: 0.875rem;    /* text-sm → 14px */
-  font-weight: 700;       /* font-bold */
-  color: #3b82f6;         /* text-primary (Tailwind default → blue-500) */
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: #3b82f6;
 }
 
 .sectionClass3 
 {
-  background-color: #f8fafc; /* bg-slate-50 */
-  padding-top: 5rem;        /* py-20 → 5rem */
-  padding-bottom: 5rem;     /* py-20 → 5rem */
+  background-color: #f8fafc;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .div_class7
 {
-  margin-left: auto;       /* mx-auto → centers horizontally */
+  margin-left: auto;
   margin-right: auto;      
-  max-width: 80rem;        /* max-w-7xl → 1280px (80rem) */
-  padding-left: 1rem;      /* px-4 → 1rem */
-  padding-right: 1rem;     /* px-4 → 1rem */
+  max-width: 80rem;
+  padding-left: 1rem;  
+  padding-right: 1rem;
 }
 
 .div_class8 
 {
-  display: flex;           /* flex */
-  flex-direction: column;  /* flex-col */
-  gap: 3rem;               /* gap-12 → 3rem */
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
 }
 
 .div_class9
@@ -329,10 +329,10 @@ body
 
 .div_class10
 {
-  margin-bottom: 2.5rem;   /* mb-10 → 2.5rem */
-  display: flex;           /* flex */
-  align-items: flex-end;   /* items-end */
-  justify-content: space-between; /* justify-between */
+  margin-bottom: 2.5rem;
+  display: flex;
+  align-items: flex-end; 
+  justify-content: space-between;
 }
 
 .head_class4 {

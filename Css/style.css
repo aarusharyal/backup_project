@@ -276,7 +276,7 @@ body
   padding: 2rem;
 }
 
-.head_class3 
+.head_class3 ,.head_class4
 {
   font-size: 1.25rem; 
   font-weight: 700;
@@ -347,6 +347,7 @@ body
   font-size: 0.875rem;
   font-weight: 700;
   color: #3b82f6;
+}
 
 .div_class11 
 {
@@ -400,3 +401,21 @@ body
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+.div_class14 
+{
+  border-radius: 0.75rem;        /* rounded-xl */
+  background-color: #ffffff;     /* bg-white */
+  padding: 2rem;                 /* p-8 → 2rem on all sides */
+  border: 1px solid #e2e8f0;     /* border-slate-200 */
+}
+
+.div_class15
+{
+  margin-bottom: 1.5rem;        /* mb-6 → 1.5rem */
+  display: flex;                /* flex */
+  align-items: center;          /* items-center → vertical alignment */
+  justify-content: space-between; /* justify-between → spread children apart */
+}
+
+

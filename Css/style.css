@@ -18,6 +18,15 @@ body
     overflow-x: hidden;
 }
 
+.head_class1
+{
+  font-size: 1.25rem;        /* text-xl → 20px */
+  font-weight: 800;          /* font-extrabold */
+  letter-spacing: -0.015em;  /* tracking-tight → slightly tighter spacing */
+  color: #001f3f;            /* text-navy (deep navy) */
+  text-transform: uppercase; /* uppercase */
+}
+
 .header_class1
 {
     position: sticky;
@@ -76,20 +85,33 @@ body
     align-items: center;
     gap: 1.5rem;
 }
+.navbar {
+  display: flex;              /* hidden → element not shown */
+  /* lg:flex removed → no responsive behavior */
+  align-items: center;        /* items-center */
+  gap: 1.5rem;                /* gap-6 → 1.5rem */
+}
 
 .group_relative
 {
-    position: relative;
+    position: relative;;
 }
 
 .button_class1
 {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     font-size: 0.875rem;
     font-weight: 600;
     color: #374151;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+}
+.button_class1:hover
+{
+    color: #3b82f6;
 }
 
 .a_class1
@@ -97,6 +119,10 @@ body
     font-size: 0.875rem;
     font-weight: 600;
     color: #374151;
+}
+.a_class1:hover
+{
+    color: #3b82f6;
 }
 
 .div_class1
@@ -424,3 +450,96 @@ body
   gap: 1rem;       /* gap-4 → 1rem spacing between flex children */
 }
 
+.div_class17
+ {
+  display: flex;                 /* flex */
+  flex-direction: column;        /* flex-col */
+  align-items: center;           /* items-center */
+  justify-content: center;       /* justify-center */
+  height: 3.5rem;                /* h-14 → 56px */
+  width: 3.5rem;                 /* w-14 → 56px */
+  flex-shrink: 0;                /* flex-shrink-0 */
+  border-radius: 0.5rem;         /* rounded-lg */
+  background-color: #f1f5f9;     /* bg-slate-100 */
+  color: #001f3f;                /* text-navy */
+}
+
+.spanClass2 
+{
+  font-size: 0.75rem;        /* text-xs → 12px */
+  font-weight: 700;          /* font-bold */
+  text-transform: uppercase; /* uppercase */
+}
+
+.spanClass3
+{
+  font-size: 1.25rem;   /* text-xl → 20px */
+  font-weight: 800;     /* font-extrabold */
+}
+
+.header_title
+{
+  font-size: 0.875rem;     /* text-sm → 14px */
+  font-weight: 700;        /* font-bold */
+  color: #001f3f;          /* text-navy (deep navy) */
+  cursor: pointer;         /* cursor-pointer */
+}
+
+.paragraph_class4
+{
+  margin-top: 0.25rem;     /* mt-1 → 0.25rem */
+  font-size: 0.75rem;      /* text-xs → 12px */
+  color: #64748b;          /* text-slate-500 → medium gray */
+}
+
+.buttonClass33 {
+  margin-top: 2rem;          /* mt-8 → 2rem */
+  width: 100%;               /* w-full */
+  border-radius: 0.5rem;     /* rounded-lg */
+  border: 2px solid #0d6efd; /* border-2 border-primary (example primary color: blue) */
+  padding-top: 0.75rem;      /* py-3 → 0.75rem */
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;       /* text-sm → 14px */
+  font-weight: 700;          /* font-bold */
+  color: #0d6efd;            /* text-primary */
+}
+
+.div_class18
+{
+  margin-top: 1.5rem;          /* mt-6 → 1.5rem */
+  border-radius: 0.75rem;      /* rounded-xl */
+  background-color: #0d6efd;   /* bg-primary (example primary blue) */
+  padding: 2rem;               /* p-8 → 2rem on all sides */
+  color: #ffffff;              /* text-white */
+}
+
+.h3heh 
+{
+  font-size: 1.125rem;   /* text-lg → 18px */
+  font-weight: 700;      /* font-bold */
+}
+
+.paragraph22
+{
+  margin-top: 0.5rem;        /* mt-2 → 0.5rem */
+  font-size: 0.875rem;       /* text-sm → 14px */
+  color: rgba(255, 255, 255, 0.8); /* text-white/80 → white at 80% opacity */
+  font-weight: 300;          /* font-light */
+}
+
+.button67
+{
+  margin-top: 1.5rem;          /* mt-6 → 1.5rem */
+  display: flex;               /* flex */
+  align-items: center;         /* items-center */
+  gap: 0.5rem;                 /* gap-2 → 0.5rem */
+  border-radius: 0.5rem;       /* rounded-lg */
+  background-color: #ffffff;   /* bg-white */
+  padding-left: 1rem;          /* px-4 → 1rem left/right */
+  padding-right: 1rem;
+  padding-top: 0.5rem;         /* py-2 → 0.5rem top/bottom */
+  padding-bottom: 0.5rem;
+  font-size: 0.875rem;         /* text-sm → 14px */
+  font-weight: 700;            /* font-bold */
+  color: #0d6efd;              /* text-primary (example primary blue) */
+}

@@ -543,3 +543,58 @@ body
   font-weight: 700;            /* font-bold */
   color: #0d6efd;              /* text-primary (example primary blue) */
 }
+
+.footerClass1
+{
+  background-color: #001f3f;  /* bg-navy → deep navy */
+  color: #d1d5db;            /* text-slate-300 → light gray */
+}
+
+.footerClass2 
+{
+  margin-left: auto;        /* mx-auto → centers horizontally */
+  margin-right: auto;
+  max-width: 80rem;         /* max-w-7xl → 1280px */
+  padding-left: 1rem;       /* px-4 → 1rem left/right */
+  padding-right: 1rem;
+  padding-top: 4rem;        /* py-16 → 4rem top/bottom */
+  padding-bottom: 4rem;
+}
+
+.footerClass3 
+{
+  display: grid;            /* grid */
+  grid-template-columns: repeat(2, minmax(0, 1fr)); /* grid-cols-2 */
+  gap: 2rem;                /* gap-8 → 2rem */
+}
+
+.footerClass4 
+{
+  grid-column: span 2 / span 2; /* col-span-2 → element spans 2 columns */
+}
+
+.footerClass5
+{
+  display: flex;             /* flex */
+  align-items: center;       /* items-center */
+  gap: 0.75rem;              /* gap-3 → 0.75rem */
+  color: #ffffff;            /* text-white */
+  margin-bottom: 1.5rem;     /* mb-6 → 1.5rem */
+}
+
+.spanClasss4 
+{
+  font-family: 'Material Symbols Outlined'; /* material-symbols-outlined */
+  font-size: 1.75rem;       /* text-3xl → 28px */
+  font-weight: normal;      /* default for icon font */
+  line-height: 1;           /* keeps icons aligned neatly */
+}
+
+.spanClass5
+{
+  font-size: 1.25rem;        /* text-xl → 20px */
+  font-weight: 800;          /* font-extrabold */
+  letter-spacing: -0.015em;  /* tracking-tight → slightly tighter spacing */
+  text-transform: uppercase; /* uppercase */
+}
+

@@ -20,11 +20,11 @@ body
 
 .head_class1
 {
-  font-size: 1.25rem;        /* text-xl → 20px */
-  font-weight: 800;          /* font-extrabold */
-  letter-spacing: -0.015em;  /* tracking-tight → slightly tighter spacing */
-  color: #001f3f;            /* text-navy (deep navy) */
-  text-transform: uppercase; /* uppercase */
+  font-size: 1.25rem;
+  font-weight: 800;  
+  letter-spacing: -0.015em;
+  color: #001f3f;
+  text-transform: uppercase;
 }
 
 .header_class1
@@ -33,10 +33,10 @@ body
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(255, 255, 245, 0.95); /* white with slight transparency */
+  background-color: rgba(255, 255, 245, 0.95);
   z-index: 50;
-  backdrop-filter: blur(10px); /* Optional: adds a blur effect to the background */
-  border-bottom: 1px solid #e2e8f0; /* Optional: adds a subtle border at the bottom of the header */
+  backdrop-filter: blur(10px); 
+  border-bottom: 1px solid #e2e8f0;
 }
 
 .header_class2
@@ -50,7 +50,7 @@ body
 
 .header_class3
 {
-  display: flex;          /* flex */
+  display: flex;          /* flex */  
   height: 5rem;           /* h-20 → 20 * 0.25rem = 5rem */
   align-items: center;    /* items-center */
   justify-content: space-between; /* justify-between */

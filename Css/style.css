@@ -50,10 +50,10 @@ body
 
 .header_class3
 {
-  display: flex;          /* flex */  
-  height: 5rem;           /* h-20 → 20 * 0.25rem = 5rem */
-  align-items: center;    /* items-center */
-  justify-content: space-between; /* justify-between */
+  display: flex;
+  height: 5rem; 
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header_class4
@@ -86,10 +86,9 @@ body
     gap: 1.5rem;
 }
 .navbar {
-  display: flex;              /* hidden → element not shown */
-  /* lg:flex removed → no responsive behavior */
-  align-items: center;        /* items-center */
-  gap: 1.5rem;                /* gap-6 → 1.5rem */
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .group_relative
@@ -305,9 +304,9 @@ body
 }
 .aClass1:hover
 {
-  border-color: #3b82f6; /* Changes the border to blue */
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); /* Adds a nice shadow */
-  transform: translateY(-5px); /* Lifts the card up slightly */
+  border-color: #3b82f6;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
 }
 
 .head_class3 ,.head_class5
@@ -357,12 +356,12 @@ body
 
 .div_class9 {
   display: grid;
-  grid-template-columns: 2fr 1fr; /* 2 parts for News, 1 part for Sidebar */
+  grid-template-columns: 2fr 1fr;
   grid-template-areas: 
     "header sidebar"
     "news   sidebar";
   gap: 3rem;
-  align-items: start; /* Prevents the sidebar from stretching vertically */
+  align-items: start;
 }
 
 .div_class10 {

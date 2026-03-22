@@ -456,24 +456,24 @@ body
 
 .div_class14 
 {
-  border-radius: 0.75rem;        /* rounded-xl */
-  background-color: #ffffff;     /* bg-white */
-  padding: 2rem;                 /* p-8 → 2rem on all sides */
-  border: 1px solid #e2e8f0;     /* border-slate-200 */
+  border-radius: 0.75rem;        
+  background-color: #ffffff;    
+  padding: 2rem;                
+  border: 1px solid #e2e8f0;   
 }
 
 .div_class15
 {
-  margin-bottom: 1.5rem;        /* mb-6 → 1.5rem */
-  display: flex;                /* flex */
-  align-items: center;          /* items-center → vertical alignment */
-  justify-content: space-between; /* justify-between → spread children apart */
+  margin-bottom: 1.5rem;        
+  display: flex;                
+  align-items: center;          
+  justify-content: space-between; 
 }
 
 .div_class16
  {
-  display: flex;   /* flex */
-  gap: 1rem;       /* gap-4 → 1rem spacing between flex children */
+  display: flex;   
+  gap: 1rem;       
 }
 
 .div_class17

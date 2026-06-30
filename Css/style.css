@@ -82,7 +82,6 @@ body
   color: #001f3f;
   text-transform: uppercase;
 }
-
 .nav_class1
 {
     display: flex;
@@ -478,200 +477,200 @@ body
 
 .div_class17
  {
-  display: flex;                 /* flex */
-  flex-direction: column;        /* flex-col */
-  align-items: center;           /* items-center */
-  justify-content: center;       /* justify-center */
-  height: 3.5rem;                /* h-14 → 56px */
-  width: 3.5rem;                 /* w-14 → 56px */
-  flex-shrink: 0;                /* flex-shrink-0 */
-  border-radius: 0.5rem;         /* rounded-lg */
-  background-color: #f1f5f9;     /* bg-slate-100 */
-  color: #001f3f;                /* text-navy */
+  display: flex;                 
+  flex-direction: column;        
+  align-items: center;           
+  justify-content: center;       
+  height: 3.5rem;                
+  width: 3.5rem;                 
+  flex-shrink: 0;                
+  border-radius: 0.5rem;         
+  background-color: #f1f5f9;    
+  color: #001f3f;               
 }
 
 .spanClass2 
 {
-  font-size: 0.75rem;        /* text-xs → 12px */
-  font-weight: 700;          /* font-bold */
-  text-transform: uppercase; /* uppercase */
+  font-size: 0.75rem;        
+  font-weight: 700;          
+  text-transform: uppercase; 
 }
 
 .spanClass3
 {
-  font-size: 1.25rem;   /* text-xl → 20px */
-  font-weight: 800;     /* font-extrabold */
+  font-size: 1.25rem;   
+  font-weight: 800;     
 }
 
 .header_title
 {
-  font-size: 0.875rem;     /* text-sm → 14px */
-  font-weight: 700;        /* font-bold */
-  color: #001f3f;          /* text-navy (deep navy) */
-  cursor: pointer;         /* cursor-pointer */
+  font-size: 0.875rem;  
+  font-weight: 700;     
+  color: #001f3f;      
+  cursor: pointer;      
 }
 
 .paragraph_class4
 {
-  margin-top: 0.25rem;     /* mt-1 → 0.25rem */
-  font-size: 0.75rem;      /* text-xs → 12px */
-  color: #64748b;          /* text-slate-500 → medium gray */
+  margin-top: 0.25rem;     
+  font-size: 0.75rem;      
+  color: #64748b;        
 }
 
 .buttonClass33 {
-  margin-top: 2rem;          /* mt-8 → 2rem */
-  width: 100%;               /* w-full */
-  border-radius: 0.5rem;     /* rounded-lg */
-  border: 2px solid #0d6efd; /* border-2 border-primary (example primary color: blue) */
-  padding-top: 0.75rem;      /* py-3 → 0.75rem */
+  margin-top: 2rem;       
+  width: 100%;            
+  border-radius: 0.5rem;  
+  border: 2px solid #0d6efd; 
+  padding-top: 0.75rem;      
   padding-bottom: 0.75rem;
-  font-size: 0.875rem;       /* text-sm → 14px */
-  font-weight: 700;          /* font-bold */
-  color: #0d6efd;            /* text-primary */
+  font-size: 0.875rem;       
+  font-weight: 700;          
+  color: #0d6efd;           
 }
 
 .div_class18
 {
-  margin-top: 1.5rem;          /* mt-6 → 1.5rem */
-  border-radius: 0.75rem;      /* rounded-xl */
-  background-color: #0d6efd;   /* bg-primary (example primary blue) */
-  padding: 2rem;               /* p-8 → 2rem on all sides */
-  color: #ffffff;              /* text-white */
+  margin-top: 1.5rem;        
+  border-radius: 0.75rem;    
+  background-color: #0d6efd;   
+  padding: 2rem;               
+  color: #ffffff;             
 }
 
 .h3heh 
 {
-  font-size: 1.125rem;   /* text-lg → 18px */
-  font-weight: 700;      /* font-bold */
+  font-size: 1.125rem;   
+  font-weight: 700;      
 }
 
 .paragraph22
 {
-  margin-top: 0.5rem;        /* mt-2 → 0.5rem */
-  font-size: 0.875rem;       /* text-sm → 14px */
-  color: rgba(255, 255, 255, 0.8); /* text-white/80 → white at 80% opacity */
-  font-weight: 300;          /* font-light */
+  margin-top: 0.5rem;    
+  font-size: 0.875rem;   
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300;         
 }
 
 .button67
 {
-  margin-top: 1.5rem;          /* mt-6 → 1.5rem */
-  display: flex;               /* flex */
-  align-items: center;         /* items-center */
-  gap: 0.5rem;                 /* gap-2 → 0.5rem */
-  border-radius: 0.5rem;       /* rounded-lg */
-  background-color: #ffffff;   /* bg-white */
-  padding-left: 1rem;          /* px-4 → 1rem left/right */
+  margin-top: 1.5rem;          
+  display: flex;               
+  align-items: center;         
+  gap: 0.5rem;                 
+  border-radius: 0.5rem;       
+  background-color: #ffffff;  
+  padding-left: 1rem;          
   padding-right: 1rem;
-  padding-top: 0.5rem;         /* py-2 → 0.5rem top/bottom */
+  padding-top: 0.5rem;         
   padding-bottom: 0.5rem;
-  font-size: 0.875rem;         /* text-sm → 14px */
-  font-weight: 700;            /* font-bold */
-  color: #0d6efd;              /* text-primary (example primary blue) */
+  font-size: 0.875rem;         
+  font-weight: 700;            
+  color: #0d6efd;             
 }
 
 .footerClass1
 {
-  background-color: #001f3f;  /* bg-navy → deep navy */
-  color: #d1d5db;            /* text-slate-300 → light gray */
+  background-color: #001f3f; 
+  color: #d1d5db;           
 }
 
 .footerClass2 
 {
-  margin-left: auto;        /* mx-auto → centers horizontally */
+  margin-left: auto;        
   margin-right: auto;
-  max-width: 80rem;         /* max-w-7xl → 1280px */
-  padding-left: 1rem;       /* px-4 → 1rem left/right */
+  max-width: 80rem;         
+  padding-left: 1rem;       
   padding-right: 1rem;
-  padding-top: 4rem;        /* py-16 → 4rem top/bottom */
+  padding-top: 4rem;        
   padding-bottom: 4rem;
 }
 
 .footerClass3 
 {
   display: grid;            
-  grid-template-columns: 2fr 1fr 1fr 1fr; /* 2 parts for Brand info, 1 part for each link column */
+  grid-template-columns: 2fr 1fr 1fr 1fr;
   gap: 2rem;                
 }
 
 .footerClass4 
 {
-  grid-column: span 1; /* Resets this so it fits perfectly into the first "2fr" column */
+  grid-column: span 1; 
 }
 
 .footerClass5
 {
-  display: flex;             /* flex */
-  align-items: center;       /* items-center */
-  gap: 0.75rem;              /* gap-3 → 0.75rem */
-  color: #ffffff;            /* text-white */
-  margin-bottom: 1.5rem;     /* mb-6 → 1.5rem */
+  display: flex;             
+  align-items: center;       
+  gap: 0.75rem;              
+  color: #ffffff;           
+  margin-bottom: 1.5rem;     
 }
 
 .spanClasss4 
 {
-  font-family: 'Material Symbols Outlined'; /* material-symbols-outlined */
-  font-size: 1.75rem;       /* text-3xl → 28px */
-  font-weight: normal;      /* default for icon font */
-  line-height: 1;           /* keeps icons aligned neatly */
+  font-family: 'Material Symbols Outlined';
+  font-size: 1.75rem;       
+  font-weight: normal;      
+  line-height: 1;           
 }
 
 .spanClass5
 {
-  font-size: 1.25rem;        /* text-xl → 20px */
-  font-weight: 800;          /* font-extrabold */
-  letter-spacing: -0.015em;  /* tracking-tight → slightly tighter spacing */
-  text-transform: uppercase; /* uppercase */
+  font-size: 1.25rem;       
+  font-weight: 800;         
+  letter-spacing: -0.015em;  
+  text-transform: uppercase; 
 }
 
 .paragraph_class6 
 {
-  max-width: 20rem;        /* max-w-xs → 320px */
-  font-size: 0.875rem;     /* text-sm → 14px */
-  line-height: 1.625;      /* leading-relaxed → ~1.625 */
-  font-weight: 300;        /* font-light */
+  max-width: 20rem;        
+  font-size: 0.875rem;     
+  line-height: 1.625;      
+  font-weight: 300;        
 }
 
 .footerClass6
 {
-  margin-top: 2rem;        /* mt-8 → 2rem */
-  display: flex;           /* flex */
-  gap: 1rem;               /* gap-4 → 1rem */
+  margin-top: 2rem;        
+  display: flex;           
+  gap: 1rem;               
 }
 
 .anchor1 :hover
 {
-  color: #ffffff;            /* text-white on hover */
+  color: #ffffff;         
 }
 
 .footer_head 
 {
-  font-weight: 700;        /* font-bold */
-  color: #ffffff;          /* text-white */
-  margin-bottom: 1rem;     /* mb-4 → 1rem */
+  font-weight: 700;        
+  color: #ffffff;         
+  margin-bottom: 1rem;     
 }
 
 .footer_ul {
   font-size: 0.875rem;
-  list-style: none; /* Removes the default bullet points */
-  padding-left: 0;  /* Removes default indentation */
+  list-style: none; 
+  padding-left: 0;  
 }
 
 .footer_ul > * + * 
 {
-  margin-top: 0.5rem;        /* space-y-2 → 0.5rem vertical spacing between children */
+  margin-top: 0.5rem;        
 }
 
 .footer_anchor
 {
-  transition-property: color;       /* transition-colors → only color changes animate */
-  transition-duration: 150ms;       /* Tailwind default duration */
-  transition-timing-function: ease-in-out; /* smooth transition */
+  transition-property: color;       
+  transition-duration: 150ms;       
+  transition-timing-function: ease-in-out; 
 }
 
 .footer_anchor :hover 
 {
-  color: #ffffff;                   /* hover:text-white → text turns white on hover */
+  color: #ffffff;
 }
 
 .footerClass7 
@@ -680,8 +679,8 @@ body
   border-top: 1px solid #1e293b; 
   padding-top: 2rem;           
   display: flex;               
-  flex-direction: row; /* Changed from column to row */
-  justify-content: space-between; /* Pushes copyright to left, links to right */
+  flex-direction: row;
+  justify-content: space-between; 
   align-items: center;         
   gap: 1rem;                   
   font-size: 0.875rem;          
@@ -690,34 +689,30 @@ body
 
 .footerClass8 
 {
-  display: flex;        /* flex */
-  gap: 1.5rem;          /* gap-6 → 1.5rem */
+  display: flex;        
+  gap: 1.5rem;          
 }
 
 .footer_anchor1
 {
-  font-size: 0.875rem;     /* text-sm → 14px */
-  font-weight: 500;        /* font-medium */
-  color: #64748b;          /* text-slate-500 → medium gray */
-  transition-property: color;       /* transition-colors → only color changes animate */
-  transition-duration: 150ms;       /* Tailwind default duration */
-  transition-timing-function: ease-in-out; /* smooth transition */
+  font-size: 0.875rem;     
+  font-weight: 500;        
+  color: #64748b;         
+  transition-property: color;       
+  transition-duration: 150ms;       
+  transition-timing-function: ease-in-out; 
 }
 .footer_anchor1 :hover
 {
-  color: #ffffff;          /* text-white on hover */
+  color: #ffffff;
 }
 
-/* --- IMAGE GALLERY STYLES --- */
-
-/* Section background and padding */
 .sectionClass4 {
-  background-color: #ffffff; /* White background to contrast with the grey news section */
+  background-color: #ffffff; 
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
-/* Container wrapper matching the rest of the site */
 .div_class19 {
   margin-left: auto;
   margin-right: auto;      
@@ -726,15 +721,13 @@ body
   padding-right: 1rem;
 }
 
-/* Responsive Grid for Images */
 .gallery_grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Automatically adjusts columns based on screen size */
-  grid-auto-rows: 280px; /* Forces all images to be exactly 280px tall */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: 280px; 
   gap: 1.5rem;
 }
 
-/* Individual Image Container */
 .gallery_item {
   position: relative;
   border-radius: 0.75rem;
@@ -744,51 +737,43 @@ body
   background-color: #f1f5f9;
 }
 
-/* The Image itself */
 .gallery_item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  transition: transform 0.5s ease; /* Smooth, slow zoom */
+  transition: transform 0.5s ease;
 }
 
-/* The Dark Gradient Overlay */
 .gallery_overlay {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  background: linear-gradient(to top, rgba(0, 31, 63, 0.85) 0%, rgba(0, 31, 63, 0) 50%); /* Summit Navy fade */
+  background: linear-gradient(to top, rgba(0, 31, 63, 0.85) 0%, rgba(0, 31, 63, 0) 50%); 
   display: flex;
   align-items: flex-end;
   padding: 1.5rem;
-  opacity: 0; /* Hidden by default */
-  transition: opacity 0.3s ease; /* Smooth fade in */
+  opacity: 0; 
+  transition: opacity 0.3s ease;
 }
 
-/* The Text inside the overlay */
 .gallery_overlay span {
   color: #ffffff;
   font-size: 1.125rem;
   font-weight: 700;
-  transform: translateY(15px); /* Pushed down slightly */
-  transition: transform 0.3s ease; /* Will slide up */
+  transform: translateY(15px); 
+  transition: transform 0.3s ease; 
 }
 
-/* --- HOVER EFFECTS --- */
-
-/* 1. Zoom the image in */
 .gallery_item:hover img {
   transform: scale(0.9);
 }
 
-/* 2. Fade in the dark gradient */
 .gallery_item:hover .gallery_overlay {
   opacity: 1;
 }
 
-/* 3. Slide the text up into place */
 .gallery_item:hover .gallery_overlay span {
   transform: translateY(0);
 }
